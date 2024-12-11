@@ -1,0 +1,8 @@
+name: Demo Workflow
+on: workflow_dispatch
+jobs: 
+  print:
+    runs-on: ubunto-latest
+    steps:
+      - name: Print to consol
+        run: echo Hello GHA!
