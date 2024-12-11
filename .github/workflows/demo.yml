@@ -1,5 +1,5 @@
-Name: Demo Workflow
-On: workflow_dispatch
+name: Demo Workflow
+on: workflow_dispatch
 jobs: 
   print:
     runs-on: ubunto-latest
